@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1067742343652-0dia3fldjovvs0ndruuubr7raqucllgf.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://dailyart-mobile-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1067742343652</string>
+    <string name="google_api_key" translatable="false">AIzaSyBcg80UsLo0aSUhS0Sm9-iz7bkg10bXjoE</string>
+    <string name="google_app_id" translatable="false">1:1067742343652:android:b514ac725d802b250157f1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBcg80UsLo0aSUhS0Sm9-iz7bkg10bXjoE</string>
+    <string name="google_storage_bucket" translatable="false">dailyart-mobile.appspot.com</string>
+    <string name="project_id" translatable="false">dailyart-mobile</string>
+</resources>

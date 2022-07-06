@@ -1,0 +1,342 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dailyart"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.CALL_PHONE" />
+14-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:8:5-69
+14-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:8:22-66
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:9:5-65
+15-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:10:5-80
+16-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:11:5-81
+17-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:11:22-78
+18
+19    <!-- Include required permissions for Google Maps API to run. -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\pietr\.gradle\caches\transforms-3\605862eed605f3ada305afce80e99cef\transformed\play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\pietr\.gradle\caches\transforms-3\605862eed605f3ada305afce80e99cef\transformed\play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\pietr\.gradle\caches\transforms-3\605862eed605f3ada305afce80e99cef\transformed\play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\pietr\.gradle\caches\transforms-3\605862eed605f3ada305afce80e99cef\transformed\play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\pietr\.gradle\caches\transforms-3\605862eed605f3ada305afce80e99cef\transformed\play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+25
+26    <queries>
+26-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\pietr\.gradle\caches\transforms-3\605862eed605f3ada305afce80e99cef\transformed\play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+27
+28        <!-- Needs to be explicitly declared on Android R+ -->
+29        <package android:name="com.google.android.apps.maps" />
+29-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\pietr\.gradle\caches\transforms-3\605862eed605f3ada305afce80e99cef\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+29-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\pietr\.gradle\caches\transforms-3\605862eed605f3ada305afce80e99cef\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+30    </queries>
+31
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\8961988ef143bb3a002db448ac884ccb\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:24:5-68
+32-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\8961988ef143bb3a002db448ac884ccb\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:24:22-65
+33    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+33-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\8961988ef143bb3a002db448ac884ccb\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:25:5-79
+33-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\8961988ef143bb3a002db448ac884ccb\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:25:22-76
+34    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+34-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\f577ea98101130db14e84481f49e2dad\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:26:5-110
+34-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\f577ea98101130db14e84481f49e2dad\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:26:22-107
+35
+36    <application
+36-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:13:5-41:19
+37        android:allowBackup="true"
+37-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:14:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.7.0] C:\Users\pietr\.gradle\caches\transforms-3\5743ff164d31f28923d066ea4e0a4874\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:icon="@drawable/logo_app"
+41-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:15:9-42
+42        android:label="@string/app_name"
+42-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:16:9-41
+43        android:roundIcon="@drawable/logo_app"
+43-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:17:9-47
+44        android:supportsRtl="true"
+44-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:18:9-35
+45        android:testOnly="true"
+46        android:theme="@style/Theme.Light" >
+46-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:19:9-43
+47        <activity
+47-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:20:9-22:40
+48            android:name="com.example.dailyart.AchievementsActivity"
+48-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:21:13-49
+49            android:exported="false" />
+49-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:22:13-37
+50
+51        <meta-data
+51-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:24:9-26:71
+52            android:name="com.google.android.geo.API_KEY"
+52-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:25:13-58
+53            android:value="AIzaSyAB5lMHHIXdT8E4jkf7i5rpuoKATAEoYOM" />
+53-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:26:13-68
+54
+55        <activity
+55-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:28:9-36:20
+56            android:name="com.example.dailyart.LoginActivity"
+56-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:29:13-42
+57            android:exported="true" >
+57-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:30:13-36
+58            <intent-filter>
+58-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:31:13-35:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:32:17-69
+59-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:32:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:34:17-77
+61-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:34:27-74
+62            </intent-filter>
+63        </activity>
+64        <activity android:name="com.example.dailyart.MainActivity" />
+64-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:37:9-50
+64-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:37:19-47
+65        <activity android:name="com.example.dailyart.UserSettingsActivity" />
+65-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:38:9-58
+65-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:38:19-55
+66        <activity android:name="com.example.dailyart.AppSettingsActivity" />
+66-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:39:9-57
+66-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:39:19-54
+67        <activity android:name="com.example.dailyart.RegisterActivity" />
+67-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:40:9-54
+67-->C:\Users\pietr\Desktop\DailyArt-Mobile\DailyArt-Mobile\app\src\main\AndroidManifest.xml:40:19-51
+68        <!-- Needs to be explicitly declared on P+ -->
+69        <uses-library
+69-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\pietr\.gradle\caches\transforms-3\605862eed605f3ada305afce80e99cef\transformed\play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+70            android:name="org.apache.http.legacy"
+70-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\pietr\.gradle\caches\transforms-3\605862eed605f3ada305afce80e99cef\transformed\play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+71            android:required="false" />
+71-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\pietr\.gradle\caches\transforms-3\605862eed605f3ada305afce80e99cef\transformed\play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+72
+73        <service
+73-->[androidx.room:room-runtime:2.4.2] C:\Users\pietr\.gradle\caches\transforms-3\ab430fa748aef6ecaee3cb8e7b025f99\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+74            android:name="androidx.room.MultiInstanceInvalidationService"
+74-->[androidx.room:room-runtime:2.4.2] C:\Users\pietr\.gradle\caches\transforms-3\ab430fa748aef6ecaee3cb8e7b025f99\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+75            android:directBootAware="true"
+75-->[androidx.room:room-runtime:2.4.2] C:\Users\pietr\.gradle\caches\transforms-3\ab430fa748aef6ecaee3cb8e7b025f99\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+76            android:exported="false" />
+76-->[androidx.room:room-runtime:2.4.2] C:\Users\pietr\.gradle\caches\transforms-3\ab430fa748aef6ecaee3cb8e7b025f99\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+77        <service
+77-->[com.google.firebase:firebase-database:20.0.5] C:\Users\pietr\.gradle\caches\transforms-3\21b539a68a02d0d029ab507a38c9eff3\transformed\firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+78            android:name="com.google.firebase.components.ComponentDiscoveryService"
+78-->[com.google.firebase:firebase-database:20.0.5] C:\Users\pietr\.gradle\caches\transforms-3\21b539a68a02d0d029ab507a38c9eff3\transformed\firebase-database-20.0.5\AndroidManifest.xml:30:13-84
+79            android:directBootAware="true"
+79-->[com.google.firebase:firebase-common:20.1.1] C:\Users\pietr\.gradle\caches\transforms-3\cd1693d3ed1cdfc22937ba7cdd967b81\transformed\firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+80            android:exported="false" >
+80-->[com.google.firebase:firebase-database:20.0.5] C:\Users\pietr\.gradle\caches\transforms-3\21b539a68a02d0d029ab507a38c9eff3\transformed\firebase-database-20.0.5\AndroidManifest.xml:31:13-37
+81            <meta-data
+81-->[com.google.firebase:firebase-database:20.0.5] C:\Users\pietr\.gradle\caches\transforms-3\21b539a68a02d0d029ab507a38c9eff3\transformed\firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+82                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+82-->[com.google.firebase:firebase-database:20.0.5] C:\Users\pietr\.gradle\caches\transforms-3\21b539a68a02d0d029ab507a38c9eff3\transformed\firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-database:20.0.5] C:\Users\pietr\.gradle\caches\transforms-3\21b539a68a02d0d029ab507a38c9eff3\transformed\firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\pietr\.gradle\caches\transforms-3\7f7f21eb916210b74f86f6c66b4268fd\transformed\firebase-storage-20.0.1\AndroidManifest.xml:33:13-35:85
+85                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+85-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\pietr\.gradle\caches\transforms-3\7f7f21eb916210b74f86f6c66b4268fd\transformed\firebase-storage-20.0.1\AndroidManifest.xml:34:17-107
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\pietr\.gradle\caches\transforms-3\7f7f21eb916210b74f86f6c66b4268fd\transformed\firebase-storage-20.0.1\AndroidManifest.xml:35:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-firestore:24.2.0] C:\Users\pietr\.gradle\caches\transforms-3\1a0bcdc164c5fcec2637444ce3ffd810\transformed\firebase-firestore-24.2.0\AndroidManifest.xml:20:13-22:85
+88                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+88-->[com.google.firebase:firebase-firestore:24.2.0] C:\Users\pietr\.gradle\caches\transforms-3\1a0bcdc164c5fcec2637444ce3ffd810\transformed\firebase-firestore-24.2.0\AndroidManifest.xml:21:17-111
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-firestore:24.2.0] C:\Users\pietr\.gradle\caches\transforms-3\1a0bcdc164c5fcec2637444ce3ffd810\transformed\firebase-firestore-24.2.0\AndroidManifest.xml:22:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:67:13-69:85
+91                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+91-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:68:17-109
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:69:17-82
+93            <meta-data
+93-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\8961988ef143bb3a002db448ac884ccb\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:31:13-33:85
+94                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+94-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\8961988ef143bb3a002db448ac884ccb\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:32:17-139
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\8961988ef143bb3a002db448ac884ccb\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:33:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\pietr\.gradle\caches\transforms-3\68c2d613aaa36c90753e133f2f45580f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+97                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+97-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\pietr\.gradle\caches\transforms-3\68c2d613aaa36c90753e133f2f45580f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\pietr\.gradle\caches\transforms-3\68c2d613aaa36c90753e133f2f45580f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+99        </service>
+100
+101        <activity
+101-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:27:9-44:20
+102            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+102-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:28:13-80
+103            android:excludeFromRecents="true"
+103-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:29:13-46
+104            android:exported="true"
+104-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:30:13-36
+105            android:launchMode="singleTask"
+105-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:31:13-44
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+106-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:32:13-72
+107            <intent-filter>
+107-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:33:13-43:29
+108                <action android:name="android.intent.action.VIEW" />
+108-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:34:17-69
+108-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:34:25-66
+109
+110                <category android:name="android.intent.category.DEFAULT" />
+110-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:36:17-76
+110-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:36:27-73
+111                <category android:name="android.intent.category.BROWSABLE" />
+111-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:37:17-78
+111-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:37:27-75
+112
+113                <data
+113-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:39:17-42:51
+114                    android:host="firebase.auth"
+114-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:40:21-49
+115                    android:path="/"
+115-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:41:21-37
+116                    android:scheme="genericidp" />
+116-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:42:21-48
+117            </intent-filter>
+118        </activity>
+119        <activity
+119-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:45:9-62:20
+120            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+120-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:46:13-79
+121            android:excludeFromRecents="true"
+121-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:47:13-46
+122            android:exported="true"
+122-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:48:13-36
+123            android:launchMode="singleTask"
+123-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:49:13-44
+124            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+124-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:50:13-72
+125            <intent-filter>
+125-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:51:13-61:29
+126                <action android:name="android.intent.action.VIEW" />
+126-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:34:17-69
+126-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:34:25-66
+127
+128                <category android:name="android.intent.category.DEFAULT" />
+128-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:36:17-76
+128-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:36:27-73
+129                <category android:name="android.intent.category.BROWSABLE" />
+129-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:37:17-78
+129-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:37:27-75
+130
+131                <data
+131-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:39:17-42:51
+132                    android:host="firebase.auth"
+132-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:40:21-49
+133                    android:path="/"
+133-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:41:21-37
+134                    android:scheme="recaptcha" />
+134-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\pietr\.gradle\caches\transforms-3\6dca94b478e4254a7328bdf27c5ab003\transformed\firebase-auth-21.0.6\AndroidManifest.xml:42:21-48
+135            </intent-filter>
+136        </activity>
+137
+138        <provider
+138-->[com.google.firebase:firebase-common:20.1.1] C:\Users\pietr\.gradle\caches\transforms-3\cd1693d3ed1cdfc22937ba7cdd967b81\transformed\firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+139            android:name="com.google.firebase.provider.FirebaseInitProvider"
+139-->[com.google.firebase:firebase-common:20.1.1] C:\Users\pietr\.gradle\caches\transforms-3\cd1693d3ed1cdfc22937ba7cdd967b81\transformed\firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+140            android:authorities="com.example.dailyart.firebaseinitprovider"
+140-->[com.google.firebase:firebase-common:20.1.1] C:\Users\pietr\.gradle\caches\transforms-3\cd1693d3ed1cdfc22937ba7cdd967b81\transformed\firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+141            android:directBootAware="true"
+141-->[com.google.firebase:firebase-common:20.1.1] C:\Users\pietr\.gradle\caches\transforms-3\cd1693d3ed1cdfc22937ba7cdd967b81\transformed\firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+142            android:exported="false"
+142-->[com.google.firebase:firebase-common:20.1.1] C:\Users\pietr\.gradle\caches\transforms-3\cd1693d3ed1cdfc22937ba7cdd967b81\transformed\firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+143            android:initOrder="100" />
+143-->[com.google.firebase:firebase-common:20.1.1] C:\Users\pietr\.gradle\caches\transforms-3\cd1693d3ed1cdfc22937ba7cdd967b81\transformed\firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+144
+145        <activity
+145-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\pietr\.gradle\caches\transforms-3\65ebf8feaa75971ce0cec3e5093cb428\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+146            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+146-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\pietr\.gradle\caches\transforms-3\65ebf8feaa75971ce0cec3e5093cb428\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+147            android:exported="false"
+147-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\pietr\.gradle\caches\transforms-3\65ebf8feaa75971ce0cec3e5093cb428\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+148            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+148-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\pietr\.gradle\caches\transforms-3\65ebf8feaa75971ce0cec3e5093cb428\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+149
+150        <receiver
+150-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\f577ea98101130db14e84481f49e2dad\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:29:9-33:20
+151            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+151-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\f577ea98101130db14e84481f49e2dad\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:30:13-85
+152            android:enabled="true"
+152-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\f577ea98101130db14e84481f49e2dad\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:31:13-35
+153            android:exported="false" >
+153-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\f577ea98101130db14e84481f49e2dad\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:32:13-37
+154        </receiver>
+155
+156        <service
+156-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\f577ea98101130db14e84481f49e2dad\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:35:9-38:40
+157            android:name="com.google.android.gms.measurement.AppMeasurementService"
+157-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\f577ea98101130db14e84481f49e2dad\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:36:13-84
+158            android:enabled="true"
+158-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\f577ea98101130db14e84481f49e2dad\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:37:13-35
+159            android:exported="false" />
+159-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\f577ea98101130db14e84481f49e2dad\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:38:13-37
+160        <service
+160-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\f577ea98101130db14e84481f49e2dad\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:39:9-43:72
+161            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+161-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\f577ea98101130db14e84481f49e2dad\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:40:13-87
+162            android:enabled="true"
+162-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\f577ea98101130db14e84481f49e2dad\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:41:13-35
+163            android:exported="false"
+163-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\f577ea98101130db14e84481f49e2dad\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:42:13-37
+164            android:permission="android.permission.BIND_JOB_SERVICE" />
+164-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\pietr\.gradle\caches\transforms-3\f577ea98101130db14e84481f49e2dad\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:43:13-69
+165
+166        <meta-data
+166-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\pietr\.gradle\caches\transforms-3\c47a87221556743554a636d5601c1616\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+167            android:name="com.google.android.gms.version"
+167-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\pietr\.gradle\caches\transforms-3\c47a87221556743554a636d5601c1616\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+168            android:value="@integer/google_play_services_version" />
+168-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\pietr\.gradle\caches\transforms-3\c47a87221556743554a636d5601c1616\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+169
+170        <provider
+170-->[androidx.emoji2:emoji2:1.0.0] C:\Users\pietr\.gradle\caches\transforms-3\b37426ec211c3b7a010823316d8f3f80\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+171            android:name="androidx.startup.InitializationProvider"
+171-->[androidx.emoji2:emoji2:1.0.0] C:\Users\pietr\.gradle\caches\transforms-3\b37426ec211c3b7a010823316d8f3f80\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+172            android:authorities="com.example.dailyart.androidx-startup"
+172-->[androidx.emoji2:emoji2:1.0.0] C:\Users\pietr\.gradle\caches\transforms-3\b37426ec211c3b7a010823316d8f3f80\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+173            android:exported="false" >
+173-->[androidx.emoji2:emoji2:1.0.0] C:\Users\pietr\.gradle\caches\transforms-3\b37426ec211c3b7a010823316d8f3f80\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+174            <meta-data
+174-->[androidx.emoji2:emoji2:1.0.0] C:\Users\pietr\.gradle\caches\transforms-3\b37426ec211c3b7a010823316d8f3f80\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+175                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+175-->[androidx.emoji2:emoji2:1.0.0] C:\Users\pietr\.gradle\caches\transforms-3\b37426ec211c3b7a010823316d8f3f80\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+176                android:value="androidx.startup" />
+176-->[androidx.emoji2:emoji2:1.0.0] C:\Users\pietr\.gradle\caches\transforms-3\b37426ec211c3b7a010823316d8f3f80\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+177            <meta-data
+177-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\pietr\.gradle\caches\transforms-3\d7ef137d3a7fc43e70ffa78fba83e146\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+178                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+178-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\pietr\.gradle\caches\transforms-3\d7ef137d3a7fc43e70ffa78fba83e146\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+179                android:value="androidx.startup" />
+179-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\pietr\.gradle\caches\transforms-3\d7ef137d3a7fc43e70ffa78fba83e146\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+180        </provider>
+181    </application>
+182
+183</manifest>
