@@ -25,9 +25,6 @@ import com.google.firebase.storage.StorageReference;
 
 public class AppSettingsActivity extends AppCompatActivity {
 
-    private SwitchCompat switchCompat;
-    public SharedPreferences sharedPreferences = null;
-
     private DatabaseReference dbRef;
     private FirebaseStorage storage;
 
@@ -43,35 +40,6 @@ public class AppSettingsActivity extends AppCompatActivity {
 
         tvDeleteAccount = findViewById(R.id.tvDeleteAccount);
         tvDeleteAccount.setOnClickListener(view -> deleteAccount());
-
-        if(AppCompatDelegate.getDefaultNightMode() == AppCompatDelegate.MODE_NIGHT_YES){
-            setTheme(R.style.Theme_Dark);
-        } else{
-            setTheme(R.style.Theme_Light);
-        }
-
-        switchCompat = findViewById(R.id.switch1);
-        /*sharedPreferences = getSharedPreferences("night", 0);
-        Boolean booleanValue = sharedPreferences.getBoolean("night_mode", true);
-        if (booleanValue) {
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-            switchCompat.setChecked(true);
-        }*/
-        switchCompat.setOnCheckedChangeListener((compoundButton, isChecked) -> {
-            if (isChecked) {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-                /*switchCompat.setChecked(true);
-                SharedPreferences.Editor editor = sharedPreferences.edit();
-                editor.putBoolean("night_mode", true);
-                editor.commit();*/
-            } else {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-                /*switchCompat.setChecked(false);
-                SharedPreferences.Editor editor = sharedPreferences.edit();
-                editor.putBoolean("night_mode", false);
-                editor.commit();*/
-            }
-        });
     }
 
     public void logout() {

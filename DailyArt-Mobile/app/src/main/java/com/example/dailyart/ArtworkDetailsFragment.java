@@ -296,6 +296,14 @@ public class ArtworkDetailsFragment extends Fragment {
     }
 
     @Override
+    public void onStop() {
+        super.onStop();
+        if(textToSpeech != null){
+            textToSpeech.stop();
+        }
+    }
+
+    @Override
     public void onDestroy() {
         super.onDestroy();
         if(textToSpeech != null){
