@@ -119,6 +119,7 @@ public class ArtworkDetailsFragment extends Fragment {
         imageMuseum = view.findViewById(R.id.imageArtworkMuseumDetails);
 
         mButtonSpeak = view.findViewById(R.id.btnPlayAudio);
+        mButtonSpeak.setCompoundDrawablesWithIntrinsicBounds(R.drawable.baseline_play_arrow_white_48, 0, 0, 0);
 
         noReview = view.findViewById(R.id.tvNoReviewArtwork);
         rating = view.findViewById(R.id.ratingBarReviewArtwork);
@@ -272,12 +273,12 @@ public class ArtworkDetailsFragment extends Fragment {
 
         mButtonSpeak.setOnClickListener(view15 -> {
             if(isPlaying){
-                stopSpeakText();
-                mButtonSpeak.setCompoundDrawablesWithIntrinsicBounds(R.drawable.play_arrow_48px, 0, 0, 0);
+                mButtonSpeak.setCompoundDrawablesWithIntrinsicBounds(R.drawable.baseline_play_arrow_white_48, 0, 0, 0);
                 mButtonSpeak.setTextColor(Color.WHITE);
+                stopSpeakText();
             } else {
+                mButtonSpeak.setCompoundDrawablesWithIntrinsicBounds(R.drawable.baseline_stop_white_48, 0, 0, 0);
                 speakText();
-                mButtonSpeak.setCompoundDrawablesWithIntrinsicBounds(R.drawable.stop_48px, 0, 0, 0);
             }
         });
 
@@ -300,6 +301,7 @@ public class ArtworkDetailsFragment extends Fragment {
         super.onStop();
         if(textToSpeech != null){
             textToSpeech.stop();
+            isPlaying = false;
         }
     }
 
@@ -308,6 +310,7 @@ public class ArtworkDetailsFragment extends Fragment {
         super.onDestroy();
         if(textToSpeech != null){
             textToSpeech.stop();
+            isPlaying = false;
         }
     }
 
